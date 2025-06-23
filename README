@@ -1,1 +1,30 @@
+This mini-project analyzes the global spread of COVID-19 using confirmed case data along with a cross-analysis of world happiness indicators.
+Here are the key insights drawn from the analysis:
+📊 COVID-19 Spread Analysis
+The dataset includes confirmed COVID-19 cases from January to April 2020 for multiple countries.
 
+The highest daily infection rates (spikes) were extracted using the .diff().max() function to understand peak infection moments.
+
+Countries like Italy, India, and China were visualized over time to compare their outbreak trajectories.
+
+India's maximum daily increase and cumulative increase were compared with other countries to assess its relative outbreak severity.
+
+🌍 Cross-Analysis with Happiness Index
+The COVID-19 infection data was merged with the World Happiness Report, focusing on metrics like:
+GDP per capita
+Social support
+Healthy life expectancy
+Freedom to make life choices
+
+A correlation analysis and scatterplots were used to explore the relationship between a country's happiness metrics and its COVID-19 infection rate.
+
+It was found that:
+
+GDP per capita and life expectancy have a negative correlation with peak COVID-19 infection rates.
+
+This suggests that countries with better economic conditions and healthcare infrastructure may have been better equipped to manage the outbreak.
+
+Conclusion
+Countries with stronger economies and public health systems generally experienced lower peak infection rates, potentially due to better prevention and containment strategies.
+This project showcases how combining pandemic data with socioeconomic indicators can offer insights into global health resilience.
+Data visualization and exploratory data analysis were performed using pandas, seaborn,pyplot and matplotlib.
